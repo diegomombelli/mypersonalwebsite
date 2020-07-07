@@ -28,6 +28,8 @@ hr {
   margin-top: 32px;
 }
 
+/* CSS for classes */
+
 .avatar {
   margin-top: 3%;
   width: 200px;
@@ -78,3 +80,5 @@ hr {
   display: inline-block;
   font-size: 16px;
 }
+
+/* CSS for IDs */
