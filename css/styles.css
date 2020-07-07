@@ -18,6 +18,13 @@ h3 {
   font-family: 'Montserrat', cursive;
 }
 
+.avatar {
+  margin-top: 3%;
+  border-radius: 100%;
+  width: 200px;
+  height: auto;
+}
+
 .top-container {
   background-color: #b2eff7;
   position: relative;
