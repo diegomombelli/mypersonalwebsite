@@ -29,8 +29,31 @@ hr {
   margin-top: 32px;
 }
 
-/* CSS for classes */
+a:link {
+  font-size: 17px;
+  color: white;
+  font-family: sans-serif;
+}
 
+a:visited {
+  font-size: 17px;
+  color: white;
+  font-family: sans-serif;
+}
+
+a:hover {
+  font-size: 17px;
+  color: #FDC299;
+  font-family: sans-serif;
+}
+
+a:active {
+  font-size: 17px;
+  color: white;
+  font-family: sans-serif;
+}
+
+/* CSS for classes */
 .avatar {
   margin-top: 3%;
   width: 200px;
@@ -80,19 +103,29 @@ hr {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius: 2px;
+}
+
+.button:hover {
+  background-color: #00AA9A;
+  cursor: pointer;
 }
 
 .bottom-container {
   background-color: #3ebea5;
-  padding-top: 15px;
-  margin: 15px 0 0 0;
-  width: 100%;
-  bottom: 0;
-  position: relative;
+  position: static;
+  padding-bottom: 9px;
+  padding-top: 24px;
+  margin-top: 24px;
+}
+
+.links {
+  padding: 1%;
 }
 
 /* CSS for IDs */
-
 #copyright {
-  font-size: 12px;
+  font-size: 11px;
+  color: white;
+  font-family: sans-serif;
 }
