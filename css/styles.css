@@ -1,3 +1,5 @@
+/* --------------- CSS for HTML elements --------------- */
+
 body {
   margin: 0;
   text-align: center;
@@ -53,7 +55,8 @@ a:active {
   font-family: sans-serif;
 }
 
-/* CSS for classes */
+/* --------------- CSS for classes --------------- */
+
 .avatar {
   margin-top: 3%;
   width: 200px;
@@ -123,7 +126,8 @@ a:active {
   padding: 1%;
 }
 
-/* CSS for IDs */
+/* --------------- CSS for IDs --------------- */
+
 #copyright {
   font-size: 11px;
   color: white;
